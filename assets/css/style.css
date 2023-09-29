@@ -33,7 +33,7 @@ body {
     text-transform: uppercase;
     font-family: 'Hanson Bold', sans-serif;
     line-height: 23vh;
-    letter-spacing: ;
+    letter-spacing: -8px;
 }
 
 @media (max-width:600px) {
@@ -41,7 +41,7 @@ body {
         font-size: 13vw;
         text-transform: uppercase;
         font-family: 'Hanson Bold', sans-serif;
-        line-height: -23vh;
+        line-height: 3vh;
     }
 
 }
