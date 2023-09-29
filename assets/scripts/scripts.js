@@ -1,3 +1,3 @@
-WebGLSampler.from("#page1 h1",{
+gasp.from("#page1 h1",{
     
 })
