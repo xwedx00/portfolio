@@ -19,11 +19,12 @@ body {
 #page1{
     min-height: 100vh;
     position: relative;
-    padding: 15vh;
+    padding-top: 15vh;
 }
 
 #page1 h1{
     font-size: 15.4vw;
     text-transform: uppercase;
     font-family: 'Hanson Bold', sans-serif;
+    line-height: 15vh;
 }
