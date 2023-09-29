@@ -33,6 +33,9 @@ body {
     line-height: 23vh;
 }
 
-@media{
-    
+@media (max-width:600px){
+    font-size: 13vw;
+    text-transform: uppercase;
+    font-family: 'Hanson Bold', sans-serif;
+    line-height: 23vh;
 }
