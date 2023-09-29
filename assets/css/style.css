@@ -9,31 +9,38 @@
     box-sizing: border-box;
     font-family: 'Hanson Bold', sans-serif;
 }
-*::selection{
+
+*::selection {
     color: white;
     background-color: black;
 }
+
 html,
 body {
     height: 100%;
     width: 100%;
 }
 
-#page1{
+#page1 {
     min-height: 100vh;
     position: relative;
     padding: 0 1vw;
     padding-top: 15vh;
 }
 
-#page1 h1{
+#page1 h1 {
     font-size: 13vw;
     text-transform: uppercase;
     font-family: 'Hanson Bold', sans-serif;
     line-height: 23vh;
 }
 
-@media (max-width:600px){
-#page h1{}
-    
+@media (max-width:600px) {
+    #page h1 {
+        font-size: 13vw;
+        text-transform: uppercase;
+        font-family: 'Hanson Bold', sans-serif;
+        line-height: 23vh;
+    }
+
 }
