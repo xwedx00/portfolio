@@ -19,6 +19,7 @@ body {
 #page1{
     min-height: 100vh;
     position: relative;
+    padding: 0 1vw;
     padding-top: 15vh;
 }
 
