@@ -5,7 +5,3 @@ gsap.from("#page1 h1",{
     duration:0.9,
     stagger:0.2
 })
-
-.function loadinganimation(params) {
-    
-}
