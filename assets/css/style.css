@@ -32,16 +32,6 @@ body {
     font-size: 11vw;
     text-transform: uppercase;
     font-family: 'Hanson Bold', sans-serif;
-    line-height: -23vh;
+    
     letter-spacing: -6;
-}
-
-@media (max-width:600px) {
-    #page h1 {
-        
-        text-transform: uppercase;
-        font-family: 'Hanson Bold', sans-serif;
-        line-height: 23vh;
-    }
-
 }
