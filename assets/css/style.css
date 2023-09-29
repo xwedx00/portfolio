@@ -3,9 +3,25 @@
     src: url('/assets/fonts/Hanson-Bold.ttf') format('truetype');
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Hanson Bold', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    min-height: 100vh;
+    position: relative;
+}
+
+#page1 h1{
+    font-size: 10vw;
     font-family: 'Hanson Bold', sans-serif;
 }
