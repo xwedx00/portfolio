@@ -32,6 +32,6 @@ body {
     font-size: 11vw;
     text-transform: uppercase;
     font-family: 'Hanson Bold', sans-serif;
-    
+    line-height: -60vh;
     letter-spacing: -6;
 }
