@@ -29,7 +29,7 @@ body {
 }
 
 #page1 h1 {
-    font-size: 13vw;
+    font-size: 11vw;
     text-transform: uppercase;
     font-family: 'Hanson Bold', sans-serif;
     line-height: -23vh;
@@ -38,7 +38,7 @@ body {
 
 @media (max-width:600px) {
     #page h1 {
-        font-size: 13vw;
+        
         text-transform: uppercase;
         font-family: 'Hanson Bold', sans-serif;
         line-height: 23vh;
