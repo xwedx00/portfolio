@@ -147,7 +147,6 @@ body {
   .marquee span {
     display: block;
     white-space: nowrap;
-    font: normal 500 3.6rem/1 "Space Grotesk", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     color: #141414;
