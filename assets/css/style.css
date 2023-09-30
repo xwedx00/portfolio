@@ -25,6 +25,7 @@ body {
     position: relative;
     padding: 0 1vw;
     padding-top: 15vh;
+    background-color: black;
 }
 
 #page1 h1 {
