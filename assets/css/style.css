@@ -42,4 +42,5 @@ body {
     background-color: brown;
     position: fixed;
     z-index: 99;
+    padding: 20px;
 }
