@@ -1,6 +1,6 @@
 let typeSplit = new SplitType('[animate]', {
   types: 'lines, words, chars',
-  tagName: 'span'
+  tagName: 'h1'
 })
 
 gsap.from('[animate] .char', {
