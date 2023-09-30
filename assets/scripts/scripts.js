@@ -8,8 +8,6 @@ gsap.from("#page1 h1",{
 
 
 
-
-<script>
 let typeSplit = new SplitType('[animate]', {
   types: 'lines, words, chars',
   tagName: 'span'
@@ -22,4 +20,3 @@ gsap.from('[animate] .char', {
   stagger: 0.1,
   
 })
-</script>
