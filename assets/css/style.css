@@ -40,5 +40,6 @@ body {
     height: 100px;
     width: 100%;
     background-color: brown;
-    position: ;
+    position: fixed;
+    z-index: ;
 }
