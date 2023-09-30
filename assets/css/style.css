@@ -157,10 +157,7 @@ body {
     padding: 0 0.5rem 0 1.5rem;
     color: #807df2;
   }
-  .marquee.opposite span {
-    font-weight: 400;
-    color: #8c8caa;
-  }
+
   .marquee.opposite span::after {
     color: #807df2;
   }
