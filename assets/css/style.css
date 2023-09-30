@@ -41,5 +41,5 @@ body {
     width: 100%;
     background-color: brown;
     position: fixed;
-    z-index: ;
+    z-index: 99;
 }
