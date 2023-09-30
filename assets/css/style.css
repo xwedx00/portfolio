@@ -159,7 +159,7 @@ body {
   }
   .marquee.opposite {
     background-color: #10102b;
-    border-top: 1px solid #424264;
+    border-top: 1px solid #fff;
   }
   .marquee.opposite span {
     font-weight: 400;
