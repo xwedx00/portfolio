@@ -22,7 +22,7 @@ body {
 }
 
 #page1 {
-    
+    min-height: 100;
     position: relative;
     padding: 0 1vw;
     padding-top: 15vh;
