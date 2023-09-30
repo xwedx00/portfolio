@@ -1,25 +1,24 @@
 let typeSplit = new SplitType('[animate]', {
-  types: 'lines, words, chars',
-  tagName: 'h1'
-})
-
-gsap.from('[animate] .char', {
-  opacity: 0.3,
-  duration: 1.2,
-  ease: 'power1.out',
-  stagger: 0.1,
+    types: 'lines, words, chars',
+    tagName: 'h1'
+  })
   
-})
-
-let typeSplit = new SplitType('[animate]', {
-  types: 'lines, words, chars',
-  tagName: 'span'
-})
-
-gsap.from('[animate] .char', {
-  opacity: 0.3,
-  duration: 1.2,
-  ease: 'elastic.inOut',
-  stagger: 0.1,
+  gsap.from('[animate] .char', {
+    opacity: 0,
+    duration: 1,
+    ease: 'power1.out',
+    stagger: 0.1,
+  })
   
-})
+  let typeSplit = new SplitType('[animate]', {
+    types: 'lines, words, chars',
+    tagName: 'span'
+  })
+  
+  gsap.from('[animate] .char', {
+    opacity: 0,
+    duration: 1,
+    ease: 'power1.out',
+    stagger: 0.1,
+  })
+  
