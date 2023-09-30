@@ -36,17 +36,3 @@ body {
     line-height: -60vh;
     letter-spacing: -8;
 }
-
-.cursor {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1000;
-    pointer-events: none;
-}
-
-.cursor .char {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
