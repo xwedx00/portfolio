@@ -15,21 +15,15 @@
     background-color: black;
 }
 
-::-webkit-scrollbar {
-    display: none;
-    width: 5px;
-    background: rgba(0, 0, 0, 0);
-}
-
 html,
 body {
     height: 100%;
     width: 100%;
     overflow: hidden;
     text-rendering: optimizeLegibility;
-  background-color: #10102b;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #10102b;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 #page1 {
@@ -46,4 +40,3 @@ body {
     line-height: -60vh;
     letter-spacing: -8;
 }
-
