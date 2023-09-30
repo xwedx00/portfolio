@@ -36,7 +36,8 @@ body {
 }
 
 #contantbtn button{
-    justify-content: end;
+    flex: auto;
+    align
 }
 
 
