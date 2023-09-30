@@ -5,7 +5,7 @@ let typeSplit = new SplitType('h1', {
 
 gsap.from('h1 .char', {
     opacity: 0.5,
-    duration: 1.2,
+    duration: 2,
     ease: 'elastic.inOut',
-    stagger: ,
+    stagger: 0.2,
 })
