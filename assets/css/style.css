@@ -22,7 +22,6 @@ body {
 }
 
 #page1 {
-    min-height: auto;
     position: relative;
     padding: 0 1vw;
     padding-top: 15vh;
