@@ -41,6 +41,8 @@ body {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    text-rendering: optimizeLegibility;
+  background-color: #10102b;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
