@@ -7,5 +7,5 @@ gsap.from('h1 .char', {
     opacity: 0.5,
     duration: 1.2,
     ease: 'elastic.inOut',
-    stagger: 0.25,
+    stagger: ,
 })
