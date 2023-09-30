@@ -141,7 +141,7 @@ body {
   }
   
   .marquee {
-    background-color: #f0f0fc;
+    background-color: #000;
     border-top: 1px solid #10102b;
   }
   .marquee span {
