@@ -36,7 +36,7 @@ body {
 }
 
 #contantbtn button{
-    text-align-last: left;
+    justify-content: end;
 }
 
 
