@@ -28,6 +28,8 @@ body {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    background: rgb(245,245,243);
+    background: radial-gradient(circle, rgba(245,245,243,1) 0%, rgba(250,254,255,1) 3%, rgba(215,205,233,1) 39%); 
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
