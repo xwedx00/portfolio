@@ -35,11 +35,3 @@ body {
     line-height: -60vh;
     letter-spacing: -8;
 }
-
-#nav{
-    width: 100%;
-    background-color: brown;
-    position: fixed;
-    z-index: 99;
-    padding: 20px;
-}
