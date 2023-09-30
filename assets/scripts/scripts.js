@@ -9,3 +9,7 @@ gsap.from('h1 .char', {
     ease: 'elastic.inOut',
     stagger: 0.2,
 })
+
+document.addEventListener("DOMContentLoaded", function(){
+    document.querySelector('.loader').classList.add('loaded');
+});
