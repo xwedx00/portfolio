@@ -37,7 +37,7 @@ body {
 
 #contantbtn button{
     flex: auto;
-    flex-direction: ;
+    flex-direction: row-reverse;
 }
 
 
