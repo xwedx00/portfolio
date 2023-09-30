@@ -158,9 +158,6 @@ body {
     color: #807df2;
   }
 
-  .marquee.opposite span::after {
-    color: #807df2;
-  }
   @media only screen and (min-width: 768px) {
     .marquee span {
       font-size: 4.6rem;
