@@ -1,3 +1,4 @@
+
 .loader {
   position: fixed;
   top: 0;
@@ -5,7 +6,7 @@
   bottom: 0;
   left: 0;
   z-index: 9999;
-  background-color: #f5f5f3;
+  background-color: #10102b;
   opacity: 1;
   visibility: visible;
   -webkit-transition: all 0.6s ease-in-out;
@@ -13,16 +14,10 @@
   -moz-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
 }
-
 .loader.loaded {
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all 0.6s ease-in-out;
-  -o-transition: all 0.6s ease-in-out;
-  -moz-transition: all 0.6s ease-in-out;
-  transition: all 0.6s ease-in-out;
 }
-
 
 .loader__container {
   position: absolute;
@@ -31,9 +26,9 @@
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+     -moz-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
 }
 
 .loader__circle {
@@ -42,12 +37,11 @@
   height: 110px;
   background-color: transparent;
   -moz-border-radius: 50%;
-  border-radius: 50%;
+       border-radius: 50%;
   -webkit-animation: whiteShadow 1s infinite;
-  -moz-animation: whiteShadow 1s infinite;
-  animation: whiteShadow 1s infinite;
+     -moz-animation: whiteShadow 1s infinite;
+          animation: whiteShadow 1s infinite;
 }
-
 .loader__circle img {
   display: block;
   position: absolute;
@@ -56,16 +50,15 @@
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+     -moz-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
   width: auto;
 }
-
 .loader__circle.fade {
   -webkit-animation-play-state: paused;
-  -moz-animation-play-state: paused;
-  animation-play-state: paused;
+     -moz-animation-play-state: paused;
+          animation-play-state: paused;
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out;
   -o-transition: opacity 0.3s ease-in-out;
@@ -76,7 +69,7 @@
 @-webkit-keyframes whiteShadow {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(128, 125, 242, 0.5);
-    box-shadow: 0 0 0 0 rgba(128, 125, 242, 0.5);
+            box-shadow: 0 0 0 0 rgba(128, 125, 242, 0.5);
     -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
     transition: -webkit-box-shadow 0.3s ease-in-out;
     -o-transition: box-shadow 0.3s ease-in-out;
@@ -84,10 +77,9 @@
     transition: box-shadow 0.3s ease-in-out;
     transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out, -moz-box-shadow 0.3s ease-in-out;
   }
-
   100% {
     -webkit-box-shadow: 0 0 0 30px transparent;
-    box-shadow: 0 0 0 30px transparent;
+            box-shadow: 0 0 0 30px transparent;
     -webkit-transition: -webkit-box-shadow 0.4s ease-in-out;
     transition: -webkit-box-shadow 0.4s ease-in-out;
     -o-transition: box-shadow 0.4s ease-in-out;
@@ -100,7 +92,7 @@
 @-moz-keyframes whiteShadow {
   0% {
     -moz-box-shadow: 0 0 0 0 rgba(128, 125, 242, 0.5);
-    box-shadow: 0 0 0 0 rgba(128, 125, 242, 0.5);
+         box-shadow: 0 0 0 0 rgba(128, 125, 242, 0.5);
     -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
     transition: -webkit-box-shadow 0.3s ease-in-out;
     -o-transition: box-shadow 0.3s ease-in-out;
@@ -108,10 +100,9 @@
     transition: box-shadow 0.3s ease-in-out;
     transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out, -moz-box-shadow 0.3s ease-in-out;
   }
-
   100% {
     -moz-box-shadow: 0 0 0 30px transparent;
-    box-shadow: 0 0 0 30px transparent;
+         box-shadow: 0 0 0 30px transparent;
     -webkit-transition: -webkit-box-shadow 0.4s ease-in-out;
     transition: -webkit-box-shadow 0.4s ease-in-out;
     -o-transition: box-shadow 0.4s ease-in-out;
@@ -124,8 +115,8 @@
 @keyframes whiteShadow {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(128, 125, 242, 0.5);
-    -moz-box-shadow: 0 0 0 0 rgba(128, 125, 242, 0.5);
-    box-shadow: 0 0 0 0 rgba(128, 125, 242, 0.5);
+       -moz-box-shadow: 0 0 0 0 rgba(128, 125, 242, 0.5);
+            box-shadow: 0 0 0 0 rgba(128, 125, 242, 0.5);
     -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
     transition: -webkit-box-shadow 0.3s ease-in-out;
     -o-transition: box-shadow 0.3s ease-in-out;
@@ -133,11 +124,10 @@
     transition: box-shadow 0.3s ease-in-out;
     transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out, -moz-box-shadow 0.3s ease-in-out;
   }
-
   100% {
     -webkit-box-shadow: 0 0 0 30px transparent;
-    -moz-box-shadow: 0 0 0 30px transparent;
-    box-shadow: 0 0 0 30px transparent;
+       -moz-box-shadow: 0 0 0 30px transparent;
+            box-shadow: 0 0 0 30px transparent;
     -webkit-transition: -webkit-box-shadow 0.4s ease-in-out;
     transition: -webkit-box-shadow 0.4s ease-in-out;
     -o-transition: box-shadow 0.4s ease-in-out;
